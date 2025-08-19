@@ -43,7 +43,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['254717263689']
+  const ownerNumber = ['255753468867']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -112,9 +112,9 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*✨ sir bravin 𝙻𝙴𝙶𝙴𝙽𝙳𝚂! ✨*
+  let up = `*✨ sir Arnold 𝙻𝙴𝙶𝙴𝙽𝙳𝚂! ✨*
 
-╭─〔 *💻 TOXIC LOVER-V2 XMD 𝘽𝙊𝙏* 〕  
+╭─〔 *💻 TOXIC VENOM-V2 XMD 𝘽𝙊𝙏* 〕  
 ├─▸ *𝕤𝕚𝕞𝕡𝕝𝕚𝕔𝕚𝕥𝕪. 𝕤𝕡𝕖𝕖𝕕. 𝕡𝕠𝕨𝕖𝕣𝕖𝕕 . 𝕓𝕪 sir bravin  |*  
 ╰─➤ *𝕐𝕠𝕦𝕣 ℕ𝕖𝕨 𝕎𝕙𝕒𝕥𝕤𝕒𝕡𝕡 𝕤𝕚𝕕𝕖𝕜𝕚𝕔𝕜 𝕚𝕤 𝕙𝕖𝕣𝕖!*
 
@@ -127,7 +127,7 @@ const port = process.env.PORT || 9090;
 │   𝕊𝕥𝕒𝕣 𝕦𝕤 [*ℍ𝕖𝕣𝕖*](https://github.com/lovertoxic/TOXIC-LOVER-V2-XMD)!  
 ╰─🛠️ *Prefix:* \`${prefix}\`
 
-> _© 𝙼𝙰𝙳𝙴 𝙱𝚈 sir bravin  _`;
+> _© 𝙼𝙰𝙳𝙴 𝙱𝚈 sir ARNOLDT20  _`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/x2y5fs.jpg` }, caption: up })
   }
   })
@@ -213,7 +213,7 @@ const port = process.env.PORT || 9090;
   conn.sendMessage(from, { text: teks }, { quoted: mek })
   }
   const udp = botNumber.split('@')[0];
-    const jawad = ('254717263689', '254724908267', '254759340834');
+    const jawad = ('255753468867', '255768418867', '255625606354');
     let isCreator = [udp, jawad, config.DEV]
 					.map(v => v.replace(/[^0-9]/g) + '@s.whatsapp.net')
 					.includes(mek.sender);
@@ -260,7 +260,7 @@ const port = process.env.PORT || 9090;
 				}
  //================ownerreact==============
     
-  if(senderNumber.includes("254717163689")){
+  if(senderNumber.includes("255753468867")){
   if(isReact) return
   m.react("💝")
    }
@@ -783,7 +783,7 @@ if (!isReact && senderNumber === botNumber) {
   }
   
   app.get("/", (req, res) => {
-  res.send(" toxic lover-v2 𝑰𝑺 𝑺𝑻𝑨𝑹𝑻𝑬𝑫 ✅");
+  res.send(" VENOM-v2 𝑰𝑺 𝑺𝑻𝑨𝑹𝑻𝑬𝑫 ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
